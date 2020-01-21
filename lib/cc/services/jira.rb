@@ -6,7 +6,7 @@ class CC::Service::Jira < CC::Service
       description: "Your JIRA host domain (e.g. yourjira.com:PORT, please exclude https://)"
 
     attribute :username, Axiom::Types::String,
-      description: "Must exactly match the 'username' that appears on your JIRA profile page."
+      description: "Must exactly match the email that appears on your JIRA profile page."
 
     attribute :password, Axiom::Types::Password,
       label: "JIRA password",
